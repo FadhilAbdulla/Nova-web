@@ -216,14 +216,43 @@
                     </div>
                 </div>
 
+                <div class="group relative h-full flex items-center">
+                    <button
+                        class="flex items-center gap-1 text-xs font-medium text-gray-400 hover:text-white transition-colors tracking-wide focus:outline-none">
+                        Products <i
+                            class="fa-solid fa-chevron-down text-[8px] opacity-50 group-hover:rotate-180 transition-transform duration-300"></i>
+                    </button>
+
+                    <div class="absolute top-full left-0 w-48 h-4 bg-transparent"></div>
+
+                    <div
+                        class="absolute top-[calc(100%+10px)] left-1/2 -translate-x-1/2 w-64 p-2 bg-[#0a0a0a]/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl opacity-0 invisible group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                        <div class="flex flex-col gap-1">
+                            <a href="rent-collection.html"
+                                class="block px-4 py-3 rounded-lg hover:bg-white/5 group/item">
+                                <div class="text-white text-xs font-bold mb-0.5">Rent Collection</div>
+                                <div class="text-[10px] text-gray-500 group-hover/item:text-gray-400">FinTech Platform
+                                </div>
+                            </a>
+                            <a href="event-ticketing.html"
+                                class="block px-4 py-3 rounded-lg hover:bg-white/5 group/item">
+                                <div class="text-white text-xs font-bold mb-0.5">Event Ticketing</div>
+                                <div class="text-[10px] text-gray-500 group-hover/item:text-gray-400">Event Management
+                                </div>
+                            </a>
+                            <a href="codomo.html" class="block px-4 py-3 rounded-lg hover:bg-white/5 group/item">
+                                <div class="text-white text-xs font-bold mb-0.5">Codomo</div>
+                                <div class="text-[10px] text-gray-500 group-hover/item:text-gray-400">EdTech Platform
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <a href="index.html#process"
                     class="text-xs font-medium text-gray-400 hover:text-white transition-colors tracking-wide">Process</a>
                 <a href="index.html#journey"
                     class="text-xs font-medium text-gray-400 hover:text-white transition-colors tracking-wide">Story</a>
-                <a href="index.html#work"
-                    class="text-xs font-medium text-gray-400 hover:text-white transition-colors tracking-wide">Work</a>
-                <a href="index.html#reviews"
-                    class="text-xs font-medium text-gray-400 hover:text-white transition-colors tracking-wide">Reviews</a>
             </div>
 
             <div class="flex items-center gap-4">
@@ -263,14 +292,27 @@
                 </div>
             </div>
 
+            <div class="group">
+                <button id="mobile-products-btn"
+                    class="flex items-center justify-between w-full text-sm font-medium text-gray-300 hover:text-white transition-colors focus:outline-none">
+                    <span>Products</span>
+                    <i id="mobile-products-icon"
+                        class="fa-solid fa-chevron-down text-[10px] transition-transform duration-300"></i>
+                </button>
+                <div id="mobile-products-menu" class="hidden pl-4 mt-3 space-y-3 border-l border-white/10 ml-1">
+                    <a href="rent-collection.html"
+                        class="block text-xs text-gray-400 hover:text-white transition-colors">Rent Collection</a>
+                    <a href="event-ticketing.html"
+                        class="block text-xs text-gray-400 hover:text-white transition-colors">Event Ticketing</a>
+                    <a href="codomo.html"
+                        class="block text-xs text-gray-400 hover:text-white transition-colors">Codomo</a>
+                </div>
+            </div>
+
             <a href="index.html#process"
                 class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Process</a>
             <a href="index.html#journey"
                 class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Story</a>
-            <a href="index.html#work"
-                class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Work</a>
-            <a href="index.html#reviews"
-                class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Reviews</a>
 
             <div class="pt-2">
                 <a href="index.html#contact"
@@ -371,7 +413,7 @@
                         class="absolute inset-0 bg-gradient-to-tr from-yellow-600/20 to-purple-600/20 rounded-2xl blur-2xl">
                     </div>
                     <div class="relative rounded-2xl overflow-hidden border border-white/10 bg-[#0a0a0a]">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop"
                             alt="Innovation Lab" class="w-full h-64 md:h-80 object-cover">
                     </div>
                 </div>
@@ -392,45 +434,46 @@
                         class="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 mb-6">
                         <i class="fa-solid fa-brain"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-white mb-3">AI Integration</h3>
-                    <p class="text-sm text-gray-400 leading-relaxed">Seamlessly integrate advanced AI capabilities into
-                        your products using OpenAI, custom models, and machine learning pipelines.</p>
+                    <h3 class="text-lg font-bold text-white mb-3">AI & Automation Integration</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Seamlessly integrate advanced AI capabilities and
+                        automated workflows into your existing systems to boost efficiency and intelligence.</p>
                 </div>
                 <div class="spotlight-card p-6 md:p-8 rounded-xl" data-aos="fade-up" data-aos-delay="100">
                     <div
                         class="w-10 h-10 rounded-lg bg-green-500/10 border border-green-500/20 flex items-center justify-center text-green-400 mb-6">
                         <i class="fa-solid fa-flask"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-white mb-3">Rapid Prototyping</h3>
-                    <p class="text-sm text-gray-400 leading-relaxed">Build functional prototypes in weeks, not months.
-                        Test concepts, validate assumptions, and iterate quickly.</p>
+                    <h3 class="text-lg font-bold text-white mb-3">Innovation Lab</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">A dedicated space for rapid prototyping and
+                        experimentation. We test concepts, validate assumptions, and iterate quickly to find
+                        product-market fit.</p>
                 </div>
                 <div class="spotlight-card p-6 md:p-8 rounded-xl" data-aos="fade-up" data-aos-delay="200">
                     <div
                         class="w-10 h-10 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-400 mb-6">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-3">AI Solutions & Chatbots</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Custom AI-powered chatbots and virtual assistants
+                        that provide 24/7 customer support and personalized user interactions.</p>
+                </div>
+                <div class="spotlight-card p-6 md:p-8 rounded-xl" data-aos="fade-up" data-aos-delay="300">
+                    <div
+                        class="w-10 h-10 rounded-lg bg-pink-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400 mb-6">
                         <i class="fa-solid fa-rocket"></i>
                     </div>
                     <h3 class="text-lg font-bold text-white mb-3">MVP Development</h3>
                     <p class="text-sm text-gray-400 leading-relaxed">Create market-ready minimum viable products with
                         scalable architecture and production-grade code.</p>
                 </div>
-                <div class="spotlight-card p-6 md:p-8 rounded-xl" data-aos="fade-up" data-aos-delay="300">
+                <div class="spotlight-card p-6 md:p-8 rounded-xl" data-aos="fade-up" data-aos-delay="400">
                     <div
-                        class="w-10 h-10 rounded-lg bg-pink-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400 mb-6">
+                        class="w-10 h-10 rounded-lg bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 mb-6">
                         <i class="fa-solid fa-chart-bar"></i>
                     </div>
                     <h3 class="text-lg font-bold text-white mb-3">Market Research</h3>
                     <p class="text-sm text-gray-400 leading-relaxed">Data-driven insights and competitive analysis to
                         validate product-market fit and identify opportunities.</p>
-                </div>
-                <div class="spotlight-card p-6 md:p-8 rounded-xl" data-aos="fade-up" data-aos-delay="400">
-                    <div
-                        class="w-10 h-10 rounded-lg bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 mb-6">
-                        <i class="fa-solid fa-users"></i>
-                    </div>
-                    <h3 class="text-lg font-bold text-white mb-3">User Experience Design</h3>
-                    <p class="text-sm text-gray-400 leading-relaxed">Human-centered design thinking to create intuitive,
-                        engaging user experiences that drive adoption.</p>
                 </div>
                 <div class="spotlight-card p-6 md:p-8 rounded-xl" data-aos="fade-up" data-aos-delay="500">
                     <div
@@ -529,7 +572,7 @@
                     <h4 class="text-white font-bold text-sm mb-4">Sitemap</h4>
                     <ul class="space-y-2 text-sm text-gray-500">
                         <li><a href="index.html#services" class="hover:text-white transition-colors">Services</a></li>
-                        <li><a href="index.html#work" class="hover:text-white transition-colors">Work</a></li>
+                        <li><a href="products.html" class="hover:text-white transition-colors">Products</a></li>
                         <li><a href="index.html#process" class="hover:text-white transition-colors">Process</a></li>
                         <li><a href="index.html#journey" class="hover:text-white transition-colors">Our Story</a></li>
                     </ul>
@@ -599,6 +642,17 @@
             mobileServicesBtn.addEventListener('click', () => {
                 mobileServicesMenu.classList.toggle('hidden');
                 mobileServicesIcon.classList.toggle('rotate-180');
+            });
+        }
+
+        const mobileProductsBtn = document.getElementById('mobile-products-btn');
+        const mobileProductsMenu = document.getElementById('mobile-products-menu');
+        const mobileProductsIcon = document.getElementById('mobile-products-icon');
+
+        if (mobileProductsBtn) {
+            mobileProductsBtn.addEventListener('click', () => {
+                mobileProductsMenu.classList.toggle('hidden');
+                mobileProductsIcon.classList.toggle('rotate-180');
             });
         }
 

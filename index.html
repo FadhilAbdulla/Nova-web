@@ -217,14 +217,43 @@
                     </div>
                 </div>
 
+                <div class="group relative h-full flex items-center">
+                    <button
+                        class="flex items-center gap-1 text-xs font-medium text-gray-400 hover:text-white transition-colors tracking-wide focus:outline-none">
+                        Products <i
+                            class="fa-solid fa-chevron-down text-[8px] opacity-50 group-hover:rotate-180 transition-transform duration-300"></i>
+                    </button>
+
+                    <div class="absolute top-full left-0 w-48 h-4 bg-transparent"></div>
+
+                    <div
+                        class="absolute top-[calc(100%+10px)] left-1/2 -translate-x-1/2 w-64 p-2 bg-[#0a0a0a]/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl opacity-0 invisible group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                        <div class="flex flex-col gap-1">
+                            <a href="rent-collection.html"
+                                class="block px-4 py-3 rounded-lg hover:bg-white/5 group/item">
+                                <div class="text-white text-xs font-bold mb-0.5">Rent Collection</div>
+                                <div class="text-[10px] text-gray-500 group-hover/item:text-gray-400">FinTech Platform
+                                </div>
+                            </a>
+                            <a href="event-ticketing.html"
+                                class="block px-4 py-3 rounded-lg hover:bg-white/5 group/item">
+                                <div class="text-white text-xs font-bold mb-0.5">Event Ticketing</div>
+                                <div class="text-[10px] text-gray-500 group-hover/item:text-gray-400">Event Management
+                                </div>
+                            </a>
+                            <a href="codomo.html" class="block px-4 py-3 rounded-lg hover:bg-white/5 group/item">
+                                <div class="text-white text-xs font-bold mb-0.5">Codomo</div>
+                                <div class="text-[10px] text-gray-500 group-hover/item:text-gray-400">EdTech Platform
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <a href="#process"
                     class="text-xs font-medium text-gray-400 hover:text-white transition-colors tracking-wide">Process</a>
                 <a href="#journey"
                     class="text-xs font-medium text-gray-400 hover:text-white transition-colors tracking-wide">Story</a>
-                <a href="#work"
-                    class="text-xs font-medium text-gray-400 hover:text-white transition-colors tracking-wide">Work</a>
-                <a href="#reviews"
-                    class="text-xs font-medium text-gray-400 hover:text-white transition-colors tracking-wide">Reviews</a>
             </div>
 
             <div class="flex items-center gap-4">
@@ -264,10 +293,25 @@
                 </div>
             </div>
 
+            <div class="group">
+                <button id="mobile-products-btn"
+                    class="flex items-center justify-between w-full text-sm font-medium text-gray-300 hover:text-white transition-colors focus:outline-none">
+                    <span>Products</span>
+                    <i id="mobile-products-icon"
+                        class="fa-solid fa-chevron-down text-[10px] transition-transform duration-300"></i>
+                </button>
+                <div id="mobile-products-menu" class="hidden pl-4 mt-3 space-y-3 border-l border-white/10 ml-1">
+                    <a href="rent-collection.html"
+                        class="block text-xs text-gray-400 hover:text-white transition-colors">Rent Collection</a>
+                    <a href="event-ticketing.html"
+                        class="block text-xs text-gray-400 hover:text-white transition-colors">Event Ticketing</a>
+                    <a href="codomo.html"
+                        class="block text-xs text-gray-400 hover:text-white transition-colors">Codomo</a>
+                </div>
+            </div>
+
             <a href="#process" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Process</a>
             <a href="#journey" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Story</a>
-            <a href="#work" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Work</a>
-            <a href="#reviews" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Reviews</a>
 
             <div class="pt-2">
                 <a href="#contact"
@@ -295,7 +339,7 @@
                 <div
                     class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-indigo-500/20 bg-indigo-500/5 text-indigo-300 text-[10px] font-semibold uppercase tracking-widest mb-8 hover:bg-indigo-500/10 transition-colors cursor-default">
                     <span class="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse"></span>
-                    <span>Accepting New Clients</span>
+                    <span>Pioneering AI Future</span>
                 </div>
             </div>
 
@@ -390,10 +434,10 @@
                             robust ERP solutions to streamline your operations.</p>
                         <ul class="text-xs text-gray-500 space-y-2 font-medium">
                             <li class="flex items-center gap-2">
-                                <div class="w-1 h-1 rounded-full bg-gray-500"></div> ERP Implementation
+                                <div class="w-1 h-1 rounded-full bg-gray-500"></div> Enterprise Transformation
                             </li>
                             <li class="flex items-center gap-2">
-                                <div class="w-1 h-1 rounded-full bg-gray-500"></div> System Modernization
+                                <div class="w-1 h-1 rounded-full bg-gray-500"></div> Internal Workflow Automation
                             </li>
                         </ul>
                     </div>
@@ -410,10 +454,19 @@
                             we build software tailored to your unique needs.</p>
                         <ul class="text-xs text-gray-500 space-y-2 font-medium">
                             <li class="flex items-center gap-2">
-                                <div class="w-1 h-1 rounded-full bg-indigo-500"></div> SaaS Platforms
+                                <div class="w-1 h-1 rounded-full bg-indigo-500"></div> Website & Mobile Apps
                             </li>
                             <li class="flex items-center gap-2">
-                                <div class="w-1 h-1 rounded-full bg-indigo-500"></div> Enterprise Portals
+                                <div class="w-1 h-1 rounded-full bg-indigo-500"></div> Software & SaaS Platforms
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <div class="w-1 h-1 rounded-full bg-indigo-500"></div> E-commerce Solutions
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <div class="w-1 h-1 rounded-full bg-indigo-500"></div> UI/UX Design
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <div class="w-1 h-1 rounded-full bg-indigo-500"></div> Maintenance & Support
                             </li>
                         </ul>
                     </div>
@@ -431,10 +484,13 @@
                             new products and integrate cutting-edge AI tools.</p>
                         <ul class="text-xs text-gray-500 space-y-2 font-medium">
                             <li class="flex items-center gap-2">
-                                <div class="w-1 h-1 rounded-full bg-yellow-500"></div> AI Integration
+                                <div class="w-1 h-1 rounded-full bg-yellow-500"></div> Innovation Lab
                             </li>
                             <li class="flex items-center gap-2">
-                                <div class="w-1 h-1 rounded-full bg-yellow-500"></div> Product Prototyping
+                                <div class="w-1 h-1 rounded-full bg-yellow-500"></div> AI & Automation Integration
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <div class="w-1 h-1 rounded-full bg-yellow-500"></div> AI Solutions & Chatbots
                             </li>
                         </ul>
                     </div>
@@ -452,10 +508,10 @@
                             strategies to scale your digital products.</p>
                         <ul class="text-xs text-gray-500 space-y-2 font-medium">
                             <li class="flex items-center gap-2">
-                                <div class="w-1 h-1 rounded-full bg-green-500"></div> SEO Strategies
+                                <div class="w-1 h-1 rounded-full bg-green-500"></div> Digital Growth
                             </li>
                             <li class="flex items-center gap-2">
-                                <div class="w-1 h-1 rounded-full bg-green-500"></div> Marketing Analytics
+                                <div class="w-1 h-1 rounded-full bg-green-500"></div> Digital Marketing
                             </li>
                         </ul>
                     </div>
@@ -720,45 +776,46 @@
         </div>
     </section>
 
-    <section id="work" class="py-16 md:py-24 px-6 relative overflow-hidden">
+    <section id="products" class="py-16 md:py-24 px-6 relative overflow-hidden">
         <div class="max-w-6xl mx-auto relative z-10">
             <div class="mb-12 md:mb-20" data-aos="fade-up">
-                <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-4 tracking-tight">Selected Work
+                <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-4 tracking-tight">Our Products
                 </h2>
-                <p class="text-sm text-gray-400">Digital transformation stories that drove measurable results.</p>
+                <p class="text-sm text-gray-400">Innovative solutions built to solve real-world problems.</p>
             </div>
 
             <div class="space-y-16 md:space-y-24">
+                <!-- Rent Collection -->
                 <div class="group grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center" data-aos="fade-up">
                     <div class="order-2 lg:order-1">
                         <div class="flex items-center gap-3 mb-6 text-xs font-medium">
-                            <span class="text-indigo-400">Fintech</span>
+                            <span class="text-indigo-400">FinTech</span>
                             <span class="w-1 h-1 rounded-full bg-gray-700"></span>
-                            <span class="text-gray-500">2024</span>
+                            <span class="text-gray-500">Proprietary</span>
                         </div>
                         <h3 class="text-2xl md:text-3xl font-display font-bold text-white mb-4 tracking-tight">
-                            Enterprise Banking Platform</h3>
+                            Rent Collection Platform</h3>
                         <p class="text-sm text-gray-400 mb-8 leading-relaxed max-w-md">
-                            Modernized a legacy banking system serving 2M+ users. We implemented real-time transactions
-                            via WebSockets and enhanced security protocols, achieving 99.99% uptime.
+                            A comprehensive solution for landlords and property managers to streamline rent collection
+                            and property management. Automates billing and reduces administrative overhead.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-8">
                             <span
-                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">React</span>
+                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">Automated
+                                Billing</span>
                             <span
-                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">Node.js</span>
-                            <span
-                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">AWS</span>
+                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">Payment
+                                Gateway</span>
                         </div>
-                        <a href="#contact"
+                        <a href="products.html"
                             class="text-sm font-bold text-white border-b border-indigo-500 pb-1 hover:text-indigo-400 transition-colors">View
-                            Case Study</a>
+                            Product</a>
                     </div>
                     <div class="order-1 lg:order-2">
                         <div
                             class="rounded-lg overflow-hidden border border-white/10 relative group-hover:border-indigo-500/30 transition-colors duration-500">
                             <div class="aspect-[16/10] bg-gray-800 relative overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+                                <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=2070&auto=format&fit=crop"
                                     class="object-cover w-full h-full opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
                                 <div
                                     class="absolute inset-0 bg-gradient-to-t from-[#030014] via-transparent to-transparent">
@@ -768,12 +825,13 @@
                     </div>
                 </div>
 
+                <!-- Event Ticketing -->
                 <div class="group grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center" data-aos="fade-up">
                     <div>
                         <div
-                            class="rounded-lg overflow-hidden border border-white/10 relative group-hover:border-cyan-500/30 transition-colors duration-500">
+                            class="rounded-lg overflow-hidden border border-white/10 relative group-hover:border-pink-500/30 transition-colors duration-500">
                             <div class="aspect-[16/10] bg-gray-800 relative overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=1974&auto=format&fit=crop"
+                                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop"
                                     class="object-cover w-full h-full opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
                                 <div
                                     class="absolute inset-0 bg-gradient-to-t from-[#030014] via-transparent to-transparent">
@@ -783,99 +841,73 @@
                     </div>
                     <div>
                         <div class="flex items-center gap-3 mb-6 text-xs font-medium">
-                            <span class="text-cyan-400">SaaS Analytics</span>
+                            <span class="text-pink-400">Events</span>
                             <span class="w-1 h-1 rounded-full bg-gray-700"></span>
-                            <span class="text-gray-500">2023</span>
+                            <span class="text-gray-500">Proprietary</span>
                         </div>
-                        <h3 class="text-2xl md:text-3xl font-display font-bold text-white mb-4 tracking-tight">Real-Time
-                            Data Engine</h3>
+                        <h3 class="text-2xl md:text-3xl font-display font-bold text-white mb-4 tracking-tight">Event
+                            Ticketing Application</h3>
                         <p class="text-sm text-gray-400 mb-8 leading-relaxed max-w-md">
-                            Built a scalable analytics platform processing 50k events per second. Reduced query latency
-                            by 85% using optimized PostgreSQL indexing and Redis caching.
+                            A modern ticketing solution for events of all sizes. Handles ticket sales, check-ins, and
+                            attendee management seamlessly with powerful analytics.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-8">
                             <span
-                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">Next.js</span>
+                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">QR
+                                Check-in</span>
                             <span
-                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">Python</span>
-                            <span
-                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">Kafka</span>
+                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">Analytics</span>
                         </div>
-                        <a href="#contact"
-                            class="text-sm font-bold text-white border-b border-cyan-500 pb-1 hover:text-cyan-400 transition-colors">View
-                            Case Study</a>
+                        <a href="products.html"
+                            class="text-sm font-bold text-white border-b border-pink-500 pb-1 hover:text-pink-400 transition-colors">View
+                            Product</a>
+                    </div>
+                </div>
+
+                <!-- Codomo -->
+                <div class="group grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center" data-aos="fade-up">
+                    <div class="order-2 lg:order-1">
+                        <div class="flex items-center gap-3 mb-6 text-xs font-medium">
+                            <span class="text-green-400">EdTech</span>
+                            <span class="w-1 h-1 rounded-full bg-gray-700"></span>
+                            <span class="text-gray-500">Proprietary</span>
+                        </div>
+                        <h3 class="text-2xl md:text-3xl font-display font-bold text-white mb-4 tracking-tight">
+                            Codomo</h3>
+                        <p class="text-sm text-gray-400 mb-8 leading-relaxed max-w-md">
+                            An interactive e-learning platform dedicated to teaching coding to students. Gamified
+                            lessons and real-world projects make learning programming fun.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span
+                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">Gamified
+                                Learning</span>
+                            <span
+                                class="px-2.5 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-gray-400">Interactive
+                                Editor</span>
+                        </div>
+                        <a href="products.html"
+                            class="text-sm font-bold text-white border-b border-green-500 pb-1 hover:text-green-400 transition-colors">View
+                            Product</a>
+                    </div>
+                    <div class="order-1 lg:order-2">
+                        <div
+                            class="rounded-lg overflow-hidden border border-white/10 relative group-hover:border-green-500/30 transition-colors duration-500">
+                            <div class="aspect-[16/10] bg-gray-800 relative overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2132&auto=format&fit=crop"
+                                    class="object-cover w-full h-full opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-[#030014] via-transparent to-transparent">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="reviews" class="py-16 md:py-24 px-6 bg-white/[0.01]">
-        <div class="max-w-6xl mx-auto">
-            <div class="mb-12 md:mb-16" data-aos="fade-up">
-                <h2 class="text-2xl md:text-3xl font-display font-bold text-white mb-3">Client Stories</h2>
-                <p class="text-sm text-gray-400">Don't take our word for it.</p>
-            </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
-                <div class="spotlight-card p-5 md:p-8 rounded-xl" data-aos="fade-up">
-                    <div class="flex text-yellow-500 text-[10px] gap-1 mb-4">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i>
-                    </div>
-                    <p class="text-sm text-gray-300 leading-relaxed mb-6">"Abu Dhabi Initiative transformed our legacy
-                        system into a
-                        modern powerhouse. Their technical depth is unmatched."</p>
-                    <div class="flex items-center gap-3">
-                        <div
-                            class="w-8 h-8 rounded-full bg-indigo-600 flex items-center justify-center text-xs font-bold text-white">
-                            JD</div>
-                        <div>
-                            <p class="text-white text-xs font-bold">James Davidson</p>
-                            <p class="text-gray-500 text-[10px]">CTO, FinanceFlow</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="spotlight-card p-5 md:p-8 rounded-xl" data-aos="fade-up" data-aos-delay="100">
-                    <div class="flex text-yellow-500 text-[10px] gap-1 mb-4">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i>
-                    </div>
-                    <p class="text-sm text-gray-300 leading-relaxed mb-6">"They delivered the MVP in 6 weeks when other
-                        agencies quoted 4 months. Incredible speed."</p>
-                    <div class="flex items-center gap-3">
-                        <div
-                            class="w-8 h-8 rounded-full bg-cyan-600 flex items-center justify-center text-xs font-bold text-white">
-                            AS</div>
-                        <div>
-                            <p class="text-white text-xs font-bold">Sarah Miller</p>
-                            <p class="text-gray-500 text-[10px]">Founder, TechNova</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="spotlight-card p-5 md:p-8 rounded-xl" data-aos="fade-up" data-aos-delay="200">
-                    <div class="flex text-yellow-500 text-[10px] gap-1 mb-4">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i>
-                    </div>
-                    <p class="text-sm text-gray-300 leading-relaxed mb-6">"The AI integration they built increased our
-                        user retention by 40%. Highly recommended."</p>
-                    <div class="flex items-center gap-3">
-                        <div
-                            class="w-8 h-8 rounded-full bg-purple-600 flex items-center justify-center text-xs font-bold text-white">
-                            MR</div>
-                        <div>
-                            <p class="text-white text-xs font-bold">Michael Ross</p>
-                            <p class="text-gray-500 text-[10px]">VP Product, DataCo</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <footer id="contact" class="bg-[#02010a] pt-16 md:pt-20 pb-10 border-t border-white/5">
         <div class="max-w-6xl mx-auto px-6">
@@ -904,7 +936,7 @@
                     <h4 class="text-white font-bold text-sm mb-4">Sitemap</h4>
                     <ul class="space-y-2 text-sm text-gray-500">
                         <li><a href="#services" class="hover:text-white transition-colors">Services</a></li>
-                        <li><a href="#work" class="hover:text-white transition-colors">Work</a></li>
+                        <li><a href="products.html" class="hover:text-white transition-colors">Products</a></li>
                         <li><a href="#process" class="hover:text-white transition-colors">Process</a></li>
                         <li><a href="#journey" class="hover:text-white transition-colors">Our Story</a></li>
                     </ul>
@@ -974,6 +1006,17 @@
             mobileServicesBtn.addEventListener('click', () => {
                 mobileServicesMenu.classList.toggle('hidden');
                 mobileServicesIcon.classList.toggle('rotate-180');
+            });
+        }
+
+        const mobileProductsBtn = document.getElementById('mobile-products-btn');
+        const mobileProductsMenu = document.getElementById('mobile-products-menu');
+        const mobileProductsIcon = document.getElementById('mobile-products-icon');
+
+        if (mobileProductsBtn) {
+            mobileProductsBtn.addEventListener('click', () => {
+                mobileProductsMenu.classList.toggle('hidden');
+                mobileProductsIcon.classList.toggle('rotate-180');
             });
         }
 
